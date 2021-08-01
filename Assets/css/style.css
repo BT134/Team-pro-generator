@@ -1,6 +1,8 @@
 .team-heading {
     background-color: #E84855;
     color: #ffffff;
+    text-align: center;
+    padding: 20px;
 }
 
 .team-area {
@@ -23,6 +25,11 @@
     border: none;
 }
 
+#card-header{
+    font-size: larger;
+    font-weight: bold;
+}
+
 .card-body {
     display: flex;
     flex-direction: column;
@@ -33,4 +40,8 @@
 .list-group-item {
     color: #000000;
     text-decoration: none;
+}
+
+#content {
+    align-items: center;
 }

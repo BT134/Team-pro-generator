@@ -59,7 +59,7 @@ inquirer.prompt([
 
     let pageContent = markdown.generateHTML(response)
 
-    //Create readme file
+    //Create HTML file
     fs.writeFile('index.html', pageContent, (err) =>
         err ? console.error(err) : console.log('Creating HTML Page...')
     )
