@@ -82,4 +82,4 @@ npm run test
 
 > Brenton Turnor [@BTurnor](https://twitter.com/BTurnor) - brenton.turnor@hotmail.com
 
-> Project Link: [https://github.com/BT134/bts-portfolio](https://github.com/BT134/bts-portfolio)
+> Profile: [https://bt134.github.io/bts-portfolio/](https://bt134.github.io/bts-portfolio/)
