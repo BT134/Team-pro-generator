@@ -53,13 +53,13 @@ npm run test
 
 ## Visual Presentation
 
-><img src=".\assets\images\My Team Profile Generator.gif" alt="Gif of team profile generator in operation">
+><img src=".\Assets\images\My Team Profile Generator.gif" alt="Gif of team profile generator in operation">
 
 > https://drive.google.com/file/d/1TOdtkrFA3iVJHdpeQy-RSPAy7Z3q9Z2O/view
 
 ## Screen Shot
 
-><img src=".\assets\images\screenshot.JPG" alt="Screenshot of generated HTML page">
+><img src=".\Assets\images\screenshot.JPG" alt="Screenshot of generated HTML page">
 
 ## Built With
 
@@ -82,4 +82,4 @@ npm run test
 
 > Brenton Turnor [@BTurnor](https://twitter.com/BTurnor) - brenton.turnor@hotmail.com
 
-> Project Link: [https://github.com/BT134/bts-portfolio](https://github.com/BT134/bts-portfolio)
+> Profile: [https://bt134.github.io/bts-portfolio/](https://bt134.github.io/bts-portfolio/)
