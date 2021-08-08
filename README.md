@@ -53,13 +53,13 @@ npm run test
 
 ## Visual Presentation
 
-><img src=".\assets\images\My Team Profile Generator.gif" alt="Gif of team profile generator in operation">
+><img src=".\Assets\images\My Team Profile Generator.gif" alt="Gif of team profile generator in operation">
 
 > https://drive.google.com/file/d/1TOdtkrFA3iVJHdpeQy-RSPAy7Z3q9Z2O/view
 
 ## Screen Shot
 
-><img src=".\assets\images\screenshot.JPG" alt="Screenshot of generated HTML page">
+><img src=".\Assets\images\screenshot.JPG" alt="Screenshot of generated HTML page">
 
 ## Built With
 
