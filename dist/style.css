@@ -2,11 +2,17 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-.team-heading {
-    background-color: #E84855;
+h3 {
+    font-weight: bold;
+}
+
+#team-heading {
+    background-color: #830505;
     color: #ffffff;
     text-align: center;
     padding: 20px;
+    font-size: 40px;
+    font-weight: bold;
 }
 
 .team-area {
@@ -20,18 +26,13 @@ body {
     max-width: 280px;
     width: 90%;
     min-height: 22rem;
-    background-color: #007bff;
-    color: white;
+    background-color: #003874;
+    color: black;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     box-shadow: 4px 4px 8px rgba(0,0,0,0.7);
     border: none;
-}
-
-#card-header{
-    font-size: larger;
-    font-weight: bold;
 }
 
 .card-body {
@@ -41,7 +42,3 @@ body {
     background-color: #F6F7F8;
 }
 
-.list-group-item {
-    color: #000000;
-    text-decoration: none;
-}

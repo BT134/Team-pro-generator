@@ -2,8 +2,8 @@
 const generateManager = function (manager) {
     return `
     <div class="col-4 mt-4">
-        <div class="card h-100">
-            <div class="card-header">
+        <div class="card employee-card">
+            <div class="card-header text-white">
                 <h3>${manager.name}</h3>
                 <h4>Manager</h4><i class="material-icons">content_paste</i>
             </div>
@@ -21,10 +21,10 @@ const generateManager = function (manager) {
 const generateEngineer = function (engineer) {
     return `
     <div class="col-4 mt-4">
-        <div class="card h-100">
-            <div class="card-header">
+        <div class="card employee-card">
+            <div class="card-header text-white">
                 <h3>${engineer.name}</h3>
-                <h4>Engineer</h4><i class="material-icons">laptop_mac</i>
+                <h4>Engineer</h4><i class="material-icons">laptop</i>
             </div>
             <div class="card-body">
                 <p class="id">ID: ${engineer.id}</p>
@@ -40,14 +40,14 @@ const generateEngineer = function (engineer) {
 const generateIntern = function (intern) {
     return `
     <div class="col-4 mt-4">
-        <div class="card h-100">
-            <div class="card-header">
+        <div class="card employee-card">
+            <div class="card-header text-white">
                 <h3>${intern.name}</h3>
-                <h4>Intern</h4><i class="material-icons">assignment_ind</i>
+                <h4>Intern</h4><i class="material-icons">schoold</i>
             </div>
             <div class="card-body">
                 <p class="id">ID: ${intern.id}</p>
-                <p class="email">Email:<a href="mailto:${intern.email}">${intern.email}</a></p>
+                <p class="email">Email: <a href="mailto:${intern.email}">${intern.email}</a></p>
                 <p class="school">School: ${intern.school}</p>
             </div>
     </div>
@@ -110,15 +110,15 @@ const generateTeamPage = function (employeeCards) {
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" >
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
       <link rel="stylesheet" href="style.css">
   </head>
   <body>
       <header>
-          <nav class="navbar" id="navbar">
-              <span class="navbar-brand mb-0 h1 w-100 text-center" id="navbar-text">My Team Profile</span>
+          <nav class="nav">
+              <span class="navbar justify-content-center w-100" id="team-heading">My Team Profile</span>
           </nav>
       </header>
       <main>

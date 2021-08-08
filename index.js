@@ -73,13 +73,12 @@ const addManager = () => {
       const  { name, id, email, officeNumber } = managerInput; 
       const manager = new Manager (name, id, email, officeNumber);
 
-      teamArray.push(manager); 
-      console.log(manager); 
+      teamArray.push(manager);  
   })
 };
 
 const addEmployee = () => {
-  console.log(`Adding employee to the team`);
+  console.log(`Adding employee to the team...`);
 
   return inquirer.prompt ([
       {
@@ -170,12 +169,8 @@ const addEmployee = () => {
       if (role === "Engineer") {
           employee = new Engineer (name, id, email, github);
 
-          console.log(employee);
-
       } else if (role === "Intern") {
           employee = new Intern (name, id, email, school);
-
-          console.log(employee);
       }
 
       teamArray.push(employee); 
